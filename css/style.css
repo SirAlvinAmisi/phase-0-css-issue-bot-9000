@@ -1,23 +1,28 @@
+/* Body styling */
 body {
-  background pink;
+  background: pink; /* Fixed 'background pink' to 'background-color: pink;' */
 }
 
+/* H1 styling */
 h1 {
   color: blue;
-  fontsize: 3em; 
+  font-size: 3em; /* Fixed 'fontsize' to 'font-size' */
 }
 
+/* H2 styling */
 h2 {
   color: green;
-  font-weight: normal
+  font-weight: normal; /* Added missing semicolon */
   font-style: italic;
 }
 
+/* Styling for .completed class */
 .completed {
-  font-family: 12px;
+  font-size: 12px; /* Changed 'font-family' to 'font-size' as 12px refers to font size */
 }
 
+/* Styling for .completed class inside #tasks */
 #tasks .completed {
-  backgound: #ccc;
+  background: #ccc; /* Fixed typo 'backgound' to 'background' */
   text-decoration: underline;
 }
